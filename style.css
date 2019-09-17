@@ -94,7 +94,7 @@ h1 {
 	height: 800px;
 	position: absolute;
 	bottom: -100%;
-	right: 10%;
+	right: 5%;
 }
 .start h1, .details h1 {
 	color: #222626;
@@ -134,6 +134,9 @@ h1 {
 .col-offset-10 {margin-left: 83.33%;}
 .col-offset-11 {margin-left: 91.66%;}
 
+
+@media (max-width: 767px) {
+
 .col-s-1 {width: 8.33%;}
 .col-s-2 {width: 16.66%;}
 .col-s-3 {width: 25%;}
@@ -146,7 +149,9 @@ h1 {
 .col-s-10 {width: 83.33%;}
 .col-s-11 {width: 91.66%;}
 .col-s-12 {width: 100%;}
+}
 
+@media (min-width: 768px) and (max-width: 1023px) {
 .col-m-1 {width: 8.33%;}
 .col-m-2 {width: 16.66%;}
 .col-m-3 {width: 25%;}
@@ -159,3 +164,4 @@ h1 {
 .col-m-10 {width: 83.33%;}
 .col-m-11 {width: 91.66%;}
 .col-m-12 {width: 100%;}
+}
