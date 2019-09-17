@@ -90,18 +90,86 @@ h1 {
 .iphone {
 	position: relative;	
 }
+
 .iphone img {
 	height: 800px;
 	position: absolute;
 	bottom: -100%;
 	right: 5%;
 }
+
 .start h1, .details h1 {
 	color: #222626;
 }
 
 .start p, .details p {
 	color: #959595;
+}
+
+/* Section gallery */
+
+.gallery .fa {
+	padding-left: 5px;	
+}
+
+.gallery>.row>div h1,
+.shop h1 {
+	font-size: 30px;
+}
+
+.gallery>.row>div {
+	height: 350px;
+	padding-left: 20px;
+}
+
+.gallery>.row>div p:nth-child(3),
+.more-power>.row>div p:nth-child(3) {
+  padding-top: 30px;
+  font-weight: bold;
+	transition: 0.5s;
+}
+
+.gallery>.row>div p:nth-child(3):hover,
+.more-power>.row>div p:nth-child(3):hover {
+  font-size: 15px;
+  color: yellow;
+  cursor: pointer;
+}
+
+.gallery>.row>div p:nth-child(2),
+.more-power>.row>div p:nth-child(2) {
+	font-size: 13px;	
+}
+
+.gal1 {
+	background-color: #f5989d;	
+}
+
+.gal2 {
+	background-color: #615f7d;	
+}
+
+.gal3 {
+	background-image: url("./images/gal3.jpg");
+	background-size: cover;
+}
+
+.gal4 {
+	background-color: #bd8cbf;	
+}
+
+.gal5 {
+	background-image: url("./images/gal5.jpg");
+	background-size: cover;
+}
+
+.gal6 {
+	background-color: #82ca9c;	
+}
+
+.gal7 {
+	background-image: url("./images/gal7.jpg");
+	background-size: cover;
 }
 
 /* Grid */
