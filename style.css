@@ -81,7 +81,7 @@ h1 {
   content: "take";
 }
 
-.slogan h1 {
+.claim h1 {
 	font-size: 60px;	
 }
 
@@ -98,11 +98,11 @@ h1 {
 	right: 5%;
 }
 
-.start h1, .details h1 {
+.start h1, .a-look h1 {
 	color: #222626;
 }
 
-.start p, .details p {
+.start p, .a-look p {
 	color: #959595;
 }
 
@@ -170,6 +170,27 @@ h1 {
 .gal7 {
 	background-image: url("./images/gal7.jpg");
 	background-size: cover;
+}
+
+/* Section a look */
+
+.a-look h3 {
+	color: #67676d	
+}
+
+/* Section more power */
+
+.more-power {
+	background-image: url("./images/more-power.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+.more-power>div {
+	padding-top: 10%;
+}
+
+.more-power>div h1 {
+	font-size: 60px;	
 }
 
 /* Grid */
